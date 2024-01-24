@@ -1,0 +1,3 @@
+#!/usr/bin/evn bash
+# Connects to my sshool server
+ssh -i ~/.ssh/school ubuntu@54.122.341.23
