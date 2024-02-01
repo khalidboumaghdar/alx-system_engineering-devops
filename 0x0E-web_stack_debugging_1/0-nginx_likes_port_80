@@ -1,0 +1,11 @@
+#!/uer/bin/evn bash
+#cofiguron an 
+
+
+#rmove
+rm /etc/nginx/sites-enabled/default
+
+
+ln -S /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+
+service nginx restart
